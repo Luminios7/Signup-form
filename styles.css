@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    width: 375px;
+}
+body {
+    text-align: center;
+    background-image: url(images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%);
+}
+h2 {
+    color: white;
+    margin: 90px 0px 0px 0px;
+    padding: 0px 70px 0px 70px;
+    font-size: 30px;
+}
+p {
+    color:hsl(245, 31%, 93%);
+margin: 20px 0px 0px 0px;
+    padding: 0px 45px 0px 40px;
+    font-size: 18px;
+}
+.try-btn {
+    border: 0;
+    font-size: 17px;
+    padding: 5px 70px 0px 70px;
+    color: #fff;
+    width: 330px;
+    height: 80px;
+    margin: 50px 0px 0px 5px;
+    border-radius: 10px;
+    background-color: hsl(248, 32%, 49%);
+   line-height: 23px;
+   box-shadow: 0px 7px 0px rgb(218, 93, 93) ;
+}
+
+.form {
+    width: 330px;
+    height: 410px;
+    margin: 22px 0px 0px 23px;
+border-radius: 10px;
+background-color:#fff;
+padding-top: 3px;
+box-shadow: 0px 7px 0px rgb(218, 93, 93) ;;
+}
+.name {
+    margin: 17px 120px 0px 0px;
+    width: 300px;
+    
+}
+#fname, #lname,#email, #pword {
+width: 290px;
+height: 50px;
+margin: 0px 0px 0px 18px;
+border:2px  groove #fff;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 600;
+padding-left:15px;
+}
+
+
+.form p{
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    margin: 13px 0px 0px 5px;
+    width: 320px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.claim-btn {
+    
+        background:  hsl(154, 59%, 51%);
+        width: 290px;
+        height: 50px;
+        color: #fff;
+        border:0px  ;
+        border-radius: 6px;
+        box-shadow: 0px 2px 1px hsl(154, 51%, 40%);
+        font-size: 15px;
+        padding-top: 4px;
+       
+     
+}
+.claim-btn:hover {
+    cursor: pointer;
+}
+.try-btn {
+    cursor: pointer;
+}
+.terms-btn{
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
+@media screen and (min-width:700px){
+    body {
+        display: grid;
+        grid-template-columns: 500px 700px 100px 100px;
+ background-image: url(images/bg-intro-desktop.png);
+background-size: 187%;
+    }
+    h2{
+        font-size: 80px;
+        margin: 400px 0px 0px 80px;
+width: 1000px;
+text-align: left;
+line-height: 70px;
+    }
+    p{ 
+        margin: 590px 0px 0px -380px;
+        text-align: left;
+        font-size: 29px;
+        width: 850px;
+    }
+    .form{padding-top: 20px;
+        width: 570px;
+        height: 620px;
+        margin: 300px 0px 0px -340px;
+    }
+    #fname, #lname, #email, #pword{
+        width: 485px;
+        height: 80px;
+font-size: 20px;
+margin: 10px 0px 0px 40px;
+    }
+    .claim-btn{
+width: 485px;
+height: 65px;
+margin: 10px 0px 0px 0px;
+font-size: 19px;
+
+    }
+    .try-btn{
+        margin: 200px 0px 0px -240px;
+        width: 571px;
+        font-size: 22px;
+        
+    }
+    .form p{
+        width: 500px;
+        font-size: 14px;
+        margin: 20px 0px 0px 40px;
+    }
+    footer{
+        margin: -500px 0px 0px 500px;
+    }
+}
